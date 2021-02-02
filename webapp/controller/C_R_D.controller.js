@@ -10,7 +10,7 @@ sap.ui.define([
 	return Controller.extend("sap.training.controller.C_R_D", {
 
 		onInit: function() {
-			var sUrl = "/destinations/ODATA_ORG/V2/(S(3yfvnc35gesha001zxni5fij))/OData/OData.svc/";
+			var sUrl = "/ODATA_ORG/V2/(S(3yfvnc35gesha001zxni5fij))/OData/OData.svc/";
 			var oModel = new ODataModel(sUrl);
 			this.getView().setModel(oModel);
 

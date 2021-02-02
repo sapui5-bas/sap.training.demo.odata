@@ -6,7 +6,7 @@ sap.ui.define([
 	return Controller.extend("sap.training.controller.Binding_Path_Syntax", {
 
 		onInit: function() {
-			var sUrl = "/destinations/ODATA_ORG/V2/OData/OData.svc/";
+			var sUrl = "/ODATA_ORG/V2/OData/OData.svc/";
 			var oModel = new ODataModel(sUrl);
 			this.getView().setModel(oModel);
 		},
