@@ -4,7 +4,7 @@
     {
       "authenticationType": "none",
       "csrfProtection": false,
-      "source": "^/ODATA_ORG/V2/OData/OData.svc/(.*)$",
+      "source": "^/ODATA_ORG/(.*)$",
       "destination": "ODATA_ORG",
       "target": "$1"
     },
